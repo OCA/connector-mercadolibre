@@ -5,6 +5,7 @@ import json
 from copy import deepcopy
 from pathlib import Path
 
+from odoo.tests import tagged
 from odoo.tests.common import TransactionCase
 
 
@@ -38,6 +39,7 @@ class Transport:
         return self.responses.pop(0)
 
 
+@tagged("post_install", "-at_install")
 class MercadoLibreProductCommon(TransactionCase):
     @classmethod
     def setUpClass(cls):
