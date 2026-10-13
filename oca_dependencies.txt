@@ -1,0 +1,4 @@
+connector https://github.com/OCA/connector 19.0
+queue https://github.com/OCA/queue 19.0
+sale-workflow https://github.com/OCA/sale-workflow 19.0
+server-tools https://github.com/OCA/server-tools 19.0
