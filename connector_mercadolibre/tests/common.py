@@ -4,6 +4,7 @@
 import json
 from pathlib import Path
 
+from odoo.tests import tagged
 from odoo.tests.common import TransactionCase
 
 
@@ -25,6 +26,7 @@ class FakeResponse:
         return self._payload
 
 
+@tagged("post_install", "-at_install")
 class MercadoLibreCommon(TransactionCase):
     @classmethod
     def setUpClass(cls):
