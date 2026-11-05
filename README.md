@@ -23,6 +23,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [connector_mercadolibre](connector_mercadolibre/) | 19.0.1.0.0 | <a href='https://github.com/max3903'><img src='https://github.com/max3903.png' width='32' height='32' style='border-radius:50%;' alt='max3903'/></a> | Backend, OAuth, and notifications for Mercado Libre
+[connector_mercadolibre_product](connector_mercadolibre_product/) | 19.0.1.0.0 |  | Listings, prices, and seller stock for Mercado Libre
 
 [//]: # (end addons)
 
