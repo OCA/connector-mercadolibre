@@ -1,9 +1,10 @@
 [project]
 name = "odoo-addons-oca-connector-mercadolibre"
-version = "19.0.20261105.0"
+version = "19.0.20261106.0"
 dependencies = [
     "odoo-addon-connector_mercadolibre==19.0.*",
     "odoo-addon-connector_mercadolibre_product==19.0.*",
+    "odoo-addon-connector_mercadolibre_sale==19.0.*",
 ]
 classifiers=[
     "Programming Language :: Python",
